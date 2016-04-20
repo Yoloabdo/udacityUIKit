@@ -34,6 +34,15 @@ class ViewController: UIViewController, UITextFieldDelegate {
         self.textField2.delegate = cashDelegate
         self.textField3.delegate = self
     }
+    @IBAction func thirdTextEnabler(sender: AnyObject) {
+        if sender.on == true {
+            textField3.enabled = true
+            textField3.backgroundColor = UIColor.whiteColor()
+        }else {
+            textField3.enabled = false
+            textField3.backgroundColor = UIColor.darkGrayColor()
+        }
+    }
 
     
     // Text Field Delegate Methods
