@@ -7,12 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD:ColorMaker-Sliders/ColorMaker.xcodeproj/project.pbxproj
 		4D20BB941A072A0300A88C83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20BB931A072A0300A88C83 /* AppDelegate.swift */; };
 		4D20BB961A072A0300A88C83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20BB951A072A0300A88C83 /* ViewController.swift */; };
 		4D20BB991A072A0300A88C83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D20BB971A072A0300A88C83 /* Main.storyboard */; };
 		4D20BB9B1A072A0300A88C83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D20BB9A1A072A0300A88C83 /* Images.xcassets */; };
 		4D20BB9E1A072A0300A88C83 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D20BB9C1A072A0300A88C83 /* LaunchScreen.xib */; };
 		4D20BBAA1A072A0300A88C83 /* ColorMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D20BBA91A072A0300A88C83 /* ColorMakerTests.swift */; };
+=======
+		4D08C4701A126D0300A95F43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D08C46F1A126D0300A95F43 /* AppDelegate.swift */; };
+		4D08C4721A126D0300A95F43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D08C4711A126D0300A95F43 /* ViewController.swift */; };
+		4D08C4751A126D0300A95F43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D08C4731A126D0300A95F43 /* Main.storyboard */; };
+		4D08C4771A126D0300A95F43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D08C4761A126D0300A95F43 /* Images.xcassets */; };
+		4D08C47A1A126D0300A95F43 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D08C4781A126D0300A95F43 /* LaunchScreen.xib */; };
+		4D08C4861A126D0300A95F43 /* TextFieldsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D08C4851A126D0300A95F43 /* TextFieldsTests.swift */; };
+		4D08C4901A126EC400A95F43 /* EmojiTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D08C48F1A126EC400A95F43 /* EmojiTextFieldDelegate.swift */; };
+		4D08C4921A12860200A95F43 /* ColorizerTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D08C4911A12860200A95F43 /* ColorizerTextFieldDelegate.swift */; };
+		B4310C521CC7CA34006B9367 /* ZipTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4310C511CC7CA34006B9367 /* ZipTextFieldDelegate.swift */; };
+		B4310C541CC7D2B4006B9367 /* CashTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4310C531CC7D2B4006B9367 /* CashTextFieldDelegate.swift */; };
+>>>>>>> MemeApp:TextFields/TextFields.xcodeproj/project.pbxproj
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD:ColorMaker-Sliders/ColorMaker.xcodeproj/project.pbxproj
 		4D20BB8E1A072A0300A88C83 /* ColorMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D20BB921A072A0300A88C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D20BB931A072A0300A88C83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +50,22 @@
 		4D20BBA31A072A0300A88C83 /* ColorMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D20BBA81A072A0300A88C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D20BBA91A072A0300A88C83 /* ColorMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMakerTests.swift; sourceTree = "<group>"; };
+=======
+		4D08C46A1A126D0300A95F43 /* TextFields.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFields.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D08C46E1A126D0300A95F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D08C46F1A126D0300A95F43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D08C4711A126D0300A95F43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D08C4741A126D0300A95F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D08C4761A126D0300A95F43 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D08C4791A126D0300A95F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4D08C47F1A126D0300A95F43 /* TextFieldsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D08C4841A126D0300A95F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D08C4851A126D0300A95F43 /* TextFieldsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsTests.swift; sourceTree = "<group>"; };
+		4D08C48F1A126EC400A95F43 /* EmojiTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiTextFieldDelegate.swift; sourceTree = "<group>"; };
+		4D08C4911A12860200A95F43 /* ColorizerTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorizerTextFieldDelegate.swift; sourceTree = "<group>"; };
+		B4310C511CC7CA34006B9367 /* ZipTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipTextFieldDelegate.swift; sourceTree = "<group>"; };
+		B4310C531CC7D2B4006B9367 /* CashTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashTextFieldDelegate.swift; sourceTree = "<group>"; };
+>>>>>>> MemeApp:TextFields/TextFields.xcodeproj/project.pbxproj
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +142,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD:ColorMaker-Sliders/ColorMaker.xcodeproj/project.pbxproj
+=======
+		4D08C4951A13DA1500A95F43 /* Text Field Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				4D08C48F1A126EC400A95F43 /* EmojiTextFieldDelegate.swift */,
+				4D08C4911A12860200A95F43 /* ColorizerTextFieldDelegate.swift */,
+				B4310C511CC7CA34006B9367 /* ZipTextFieldDelegate.swift */,
+				B4310C531CC7D2B4006B9367 /* CashTextFieldDelegate.swift */,
+			);
+			name = "Text Field Delegates";
+			sourceTree = "<group>";
+		};
+>>>>>>> MemeApp:TextFields/TextFields.xcodeproj/project.pbxproj
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,11 +200,14 @@
 		4D20BB861A072A0300A88C83 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Udacity;
 				TargetAttributes = {
 					4D20BB8D1A072A0300A88C83 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 85R85ZNGEX;
 					};
 					4D20BBA21A072A0300A88C83 = {
 						CreatedOnToolsVersion = 6.1;
@@ -212,8 +259,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD:ColorMaker-Sliders/ColorMaker.xcodeproj/project.pbxproj
 				4D20BB961A072A0300A88C83 /* ViewController.swift in Sources */,
 				4D20BB941A072A0300A88C83 /* AppDelegate.swift in Sources */,
+=======
+				4D08C4921A12860200A95F43 /* ColorizerTextFieldDelegate.swift in Sources */,
+				B4310C541CC7D2B4006B9367 /* CashTextFieldDelegate.swift in Sources */,
+				4D08C4721A126D0300A95F43 /* ViewController.swift in Sources */,
+				4D08C4701A126D0300A95F43 /* AppDelegate.swift in Sources */,
+				4D08C4901A126EC400A95F43 /* EmojiTextFieldDelegate.swift in Sources */,
+				B4310C521CC7CA34006B9367 /* ZipTextFieldDelegate.swift in Sources */,
+>>>>>>> MemeApp:TextFields/TextFields.xcodeproj/project.pbxproj
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +331,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -336,10 +393,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< HEAD:ColorMaker-Sliders/ColorMaker.xcodeproj/project.pbxproj
 				INFOPLIST_FILE = ColorMaker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+=======
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TextFields/Info.plist;
+>>>>>>> MemeApp:TextFields/TextFields.xcodeproj/project.pbxproj
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UD.TextFields.abdo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -347,10 +412,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< HEAD:ColorMaker-Sliders/ColorMaker.xcodeproj/project.pbxproj
 				INFOPLIST_FILE = ColorMaker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+=======
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TextFields/Info.plist;
+>>>>>>> MemeApp:TextFields/TextFields.xcodeproj/project.pbxproj
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UD.TextFields.abdo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -368,6 +441,7 @@
 				);
 				INFOPLIST_FILE = ColorMakerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UD.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorMaker.app/ColorMaker";
 			};
@@ -383,6 +457,7 @@
 				);
 				INFOPLIST_FILE = ColorMakerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UD.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorMaker.app/ColorMaker";
 			};
