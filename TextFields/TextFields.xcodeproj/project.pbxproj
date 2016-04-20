@@ -16,6 +16,7 @@
 		4D08C4901A126EC400A95F43 /* EmojiTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D08C48F1A126EC400A95F43 /* EmojiTextFieldDelegate.swift */; };
 		4D08C4921A12860200A95F43 /* ColorizerTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D08C4911A12860200A95F43 /* ColorizerTextFieldDelegate.swift */; };
 		B4310C521CC7CA34006B9367 /* ZipTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4310C511CC7CA34006B9367 /* ZipTextFieldDelegate.swift */; };
+		B4310C541CC7D2B4006B9367 /* CashTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4310C531CC7D2B4006B9367 /* CashTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		4D08C48F1A126EC400A95F43 /* EmojiTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiTextFieldDelegate.swift; sourceTree = "<group>"; };
 		4D08C4911A12860200A95F43 /* ColorizerTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorizerTextFieldDelegate.swift; sourceTree = "<group>"; };
 		B4310C511CC7CA34006B9367 /* ZipTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipTextFieldDelegate.swift; sourceTree = "<group>"; };
+		B4310C531CC7D2B4006B9367 /* CashTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				4D08C48F1A126EC400A95F43 /* EmojiTextFieldDelegate.swift */,
 				4D08C4911A12860200A95F43 /* ColorizerTextFieldDelegate.swift */,
 				B4310C511CC7CA34006B9367 /* ZipTextFieldDelegate.swift */,
+				B4310C531CC7D2B4006B9367 /* CashTextFieldDelegate.swift */,
 			);
 			name = "Text Field Delegates";
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D08C4921A12860200A95F43 /* ColorizerTextFieldDelegate.swift in Sources */,
+				B4310C541CC7D2B4006B9367 /* CashTextFieldDelegate.swift in Sources */,
 				4D08C4721A126D0300A95F43 /* ViewController.swift in Sources */,
 				4D08C4701A126D0300A95F43 /* AppDelegate.swift in Sources */,
 				4D08C4901A126EC400A95F43 /* EmojiTextFieldDelegate.swift in Sources */,

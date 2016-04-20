@@ -20,6 +20,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     let emojiDelegate = EmojiTextFieldDelegate()
     let colorizerDelegate = ColorizerTextFieldDelegate()
     let zipDelegate = ZipTextFieldDelegate()
+    let cashDelegate = CashTextFieldDelegate()
     // Life Cycle Methods
     
     override func viewDidLoad() {
@@ -30,7 +31,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         // Set the three delegates
         self.textField1.delegate = zipDelegate
-        self.textField2.delegate = colorizerDelegate
+        self.textField2.delegate = cashDelegate
         self.textField3.delegate = self
     }
 
