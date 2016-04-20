@@ -8,8 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    @IBOutlet weak var camerBtn: UIBarButtonItem!
 
+    @IBOutlet weak var imagePickerView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +22,30 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        camerBtn.enabled = UIImagePickerController.isSourceTypeAvailable(.Camera)
+        
+    }
+    @IBAction func pickImage(sender: UIBarButtonItem) {
+        let imagePicker = UIImagePickerController()
+        imagePicker.sourceType = .SavedPhotosAlbum
+        imagePicker.delegate = self
+        presentViewController(imagePicker, animated: true, completion:nil)
+    }
+    @IBAction func shootImage(sender: UIBarButtonItem) {
+        let imagePicker = UIImagePickerController()
+        imagePicker.delegate = self
+        imagePicker.sourceType = .Camera
+        presentViewController(imagePicker, animated: true, completion:nil)
+    }
+    
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingImage image: UIImage, editingInfo: [String : AnyObject]?) {
+        imagePickerView.image = image
+//        imagePickerView.image?.scale
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
 
 }
 
