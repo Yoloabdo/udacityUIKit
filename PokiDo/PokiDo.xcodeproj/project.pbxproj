@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B479749F1CC8F547007C9638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B479749E1CC8F547007C9638 /* AppDelegate.swift */; };
+		B47974A11CC8F548007C9638 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47974A01CC8F548007C9638 /* ViewController.swift */; };
+		B47974A41CC8F548007C9638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B47974A21CC8F548007C9638 /* Main.storyboard */; };
+		B47974A61CC8F548007C9638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B47974A51CC8F548007C9638 /* Assets.xcassets */; };
+		B47974A91CC8F548007C9638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B47974A71CC8F548007C9638 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B479749B1CC8F547007C9638 /* PokiDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokiDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B479749E1CC8F547007C9638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B47974A01CC8F548007C9638 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B47974A31CC8F548007C9638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B47974A51CC8F548007C9638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B47974A81CC8F548007C9638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B47974AA1CC8F548007C9638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B47974981CC8F547007C9638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B47974921CC8F547007C9638 = {
+			isa = PBXGroup;
+			children = (
+				B479749D1CC8F547007C9638 /* PokiDo */,
+				B479749C1CC8F547007C9638 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B479749C1CC8F547007C9638 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B479749B1CC8F547007C9638 /* PokiDo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B479749D1CC8F547007C9638 /* PokiDo */ = {
+			isa = PBXGroup;
+			children = (
+				B479749E1CC8F547007C9638 /* AppDelegate.swift */,
+				B47974A01CC8F548007C9638 /* ViewController.swift */,
+				B47974A21CC8F548007C9638 /* Main.storyboard */,
+				B47974A51CC8F548007C9638 /* Assets.xcassets */,
+				B47974A71CC8F548007C9638 /* LaunchScreen.storyboard */,
+				B47974AA1CC8F548007C9638 /* Info.plist */,
+			);
+			path = PokiDo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B479749A1CC8F547007C9638 /* PokiDo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B47974AD1CC8F548007C9638 /* Build configuration list for PBXNativeTarget "PokiDo" */;
+			buildPhases = (
+				B47974971CC8F547007C9638 /* Sources */,
+				B47974981CC8F547007C9638 /* Frameworks */,
+				B47974991CC8F547007C9638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokiDo;
+			productName = PokiDo;
+			productReference = B479749B1CC8F547007C9638 /* PokiDo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B47974931CC8F547007C9638 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Abdulrhman eaita";
+				TargetAttributes = {
+					B479749A1CC8F547007C9638 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 85R85ZNGEX;
+					};
+				};
+			};
+			buildConfigurationList = B47974961CC8F547007C9638 /* Build configuration list for PBXProject "PokiDo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B47974921CC8F547007C9638;
+			productRefGroup = B479749C1CC8F547007C9638 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B479749A1CC8F547007C9638 /* PokiDo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B47974991CC8F547007C9638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47974A91CC8F548007C9638 /* LaunchScreen.storyboard in Resources */,
+				B47974A61CC8F548007C9638 /* Assets.xcassets in Resources */,
+				B47974A41CC8F548007C9638 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B47974971CC8F547007C9638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47974A11CC8F548007C9638 /* ViewController.swift in Sources */,
+				B479749F1CC8F547007C9638 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B47974A21CC8F548007C9638 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B47974A31CC8F548007C9638 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B47974A71CC8F548007C9638 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B47974A81CC8F548007C9638 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B47974AB1CC8F548007C9638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B47974AC1CC8F548007C9638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B47974AE1CC8F548007C9638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PokiDo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoloabdo.PokiDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B47974AF1CC8F548007C9638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PokiDo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoloabdo.PokiDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B47974961CC8F547007C9638 /* Build configuration list for PBXProject "PokiDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B47974AB1CC8F548007C9638 /* Debug */,
+				B47974AC1CC8F548007C9638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B47974AD1CC8F548007C9638 /* Build configuration list for PBXNativeTarget "PokiDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B47974AE1CC8F548007C9638 /* Debug */,
+				B47974AF1CC8F548007C9638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B47974931CC8F547007C9638 /* Project object */;
+}
