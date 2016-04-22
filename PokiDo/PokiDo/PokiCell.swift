@@ -13,16 +13,30 @@ class PokiCell: UICollectionViewCell {
     @IBOutlet weak var thumbImage: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     
-    var pockemon: Pokemon!
+    
+    var cellPoki: Pokemon! {
+        didSet{
+            updateUI()
+        }
+    }
+    
+    
+    required init(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)!
+        
+        layer.cornerRadius = 5.0
+        
+    }
+    
     
     func updateUI() {
-        thumbImage.image = nil
+        // resetting
+        thumbImage?.image = nil
         
-        nameLabel.text = pockemon.name
-        thumbImage.image = UIImage(named: "\(pockemon.pokedexId)")
+        //setting
+        
+        nameLabel?.text = cellPoki.pokeName ?? "test"
+        thumbImage?.image = UIImage(named: "\(cellPoki.pokedexId)")
     }
     
-    override func awakeFromNib() {
-        updateUI()
-    }
 }
