@@ -10,15 +10,42 @@ import UIKit
 
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
+    //MARK: Variables
+    
+    var pokeData = [Pokemon]()
+    
+    // MARK: Outlets
+    @IBOutlet weak var collictionView: UICollectionView!
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        parsePokemonCSV()
     }
+    
+    //MARK: -DataSource setup
+    
+    func parsePokemonCSV() -> Void {
+        let path = NSBundle.mainBundle().pathForResource("pokemon", ofType: "csv")
+        
+        do {
+            let csvFile = try CSV(contentsOfURL: path!)
+            for row in csvFile.rows {
+                let pokeRow = Pokemon(name: row["identifier"]!, id: Int(row["id"]!)! )
+                pokeData.append(pokeRow)
+            }
+        } catch {
+            print("error loading data")
+        }
+        
+    }
+    
 
-    @IBOutlet weak var collictionView: UICollectionView! 
-  
+  // MARK: -CollictionView delegates
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 30
+        return pokeData.count
     }
     
     
@@ -31,7 +58,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as! PokiCell
         
-        cell.cellPoki = Pokemon(name: "Celloke", id: indexPath.row + 1)
+        cell.cellPoki = pokeData[indexPath.row]
         return cell
         
     }

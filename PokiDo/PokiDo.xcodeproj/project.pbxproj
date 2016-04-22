@@ -15,6 +15,8 @@
 		B47974B11CC8F709007C9638 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = B47974B01CC8F709007C9638 /* pokemon.csv */; };
 		B47974B31CC8F81A007C9638 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47974B21CC8F81A007C9638 /* Pokemon.swift */; };
 		B4B667C41CCA4BBB00BD6157 /* PokiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B667C31CCA4BBB00BD6157 /* PokiCell.swift */; };
+		B4B667C71CCA678400BD6157 /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B667C61CCA678400BD6157 /* CSV.swift */; };
+		B4B667CB1CCA6B4F00BD6157 /* Pokemon Hollow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4B667CA1CCA6B4F00BD6157 /* Pokemon Hollow.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		B47974B01CC8F709007C9638 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		B47974B21CC8F81A007C9638 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		B4B667C31CCA4BBB00BD6157 /* PokiCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokiCell.swift; sourceTree = "<group>"; };
+		B4B667C61CCA678400BD6157 /* CSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSV.swift; sourceTree = "<group>"; };
+		B4B667CA1CCA6B4F00BD6157 /* Pokemon Hollow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Hollow.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +64,11 @@
 		B479749D1CC8F547007C9638 /* PokiDo */ = {
 			isa = PBXGroup;
 			children = (
+				B4B667C91CCA67C800BD6157 /* Resources */,
+				B4B667C51CCA677700BD6157 /* Util */,
 				B4B667C21CCA4B5F00BD6157 /* View */,
-				B47974B01CC8F709007C9638 /* pokemon.csv */,
 				B479749E1CC8F547007C9638 /* AppDelegate.swift */,
-				B47974A01CC8F548007C9638 /* ViewController.swift */,
-				B47974A21CC8F548007C9638 /* Main.storyboard */,
-				B47974A51CC8F548007C9638 /* Assets.xcassets */,
-				B47974A71CC8F548007C9638 /* LaunchScreen.storyboard */,
-				B47974AA1CC8F548007C9638 /* Info.plist */,
+				B4B667C81CCA67BC00BD6157 /* Controller */,
 				B47974B41CC8F823007C9638 /* Model */,
 			);
 			path = PokiDo;
@@ -87,6 +88,35 @@
 				B4B667C31CCA4BBB00BD6157 /* PokiCell.swift */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		B4B667C51CCA677700BD6157 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B4B667C61CCA678400BD6157 /* CSV.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		B4B667C81CCA67BC00BD6157 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B47974A01CC8F548007C9638 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B4B667C91CCA67C800BD6157 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4B667CA1CCA6B4F00BD6157 /* Pokemon Hollow.ttf */,
+				B47974B01CC8F709007C9638 /* pokemon.csv */,
+				B47974A21CC8F548007C9638 /* Main.storyboard */,
+				B47974A51CC8F548007C9638 /* Assets.xcassets */,
+				B47974A71CC8F548007C9638 /* LaunchScreen.storyboard */,
+				B47974AA1CC8F548007C9638 /* Info.plist */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +180,7 @@
 			files = (
 				B47974A91CC8F548007C9638 /* LaunchScreen.storyboard in Resources */,
 				B47974A61CC8F548007C9638 /* Assets.xcassets in Resources */,
+				B4B667CB1CCA6B4F00BD6157 /* Pokemon Hollow.ttf in Resources */,
 				B47974B11CC8F709007C9638 /* pokemon.csv in Resources */,
 				B47974A41CC8F548007C9638 /* Main.storyboard in Resources */,
 			);
@@ -162,6 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4B667C71CCA678400BD6157 /* CSV.swift in Sources */,
 				B4B667C41CCA4BBB00BD6157 /* PokiCell.swift in Sources */,
 				B47974A11CC8F548007C9638 /* ViewController.swift in Sources */,
 				B47974B31CC8F81A007C9638 /* Pokemon.swift in Sources */,

@@ -5,6 +5,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Pokemon Hollow.ttf">
+            <string>PokemonHollowNormal</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -23,13 +28,22 @@
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="52L-zu-OhU">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="61"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pokedox" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vuv-7e-FkF">
+                                        <rect key="frame" x="251" y="12" width="99" height="37"/>
+                                        <fontDescription key="fontDescription" name="PokemonHollowNormal" family="Pokemon Hollow" pointSize="26"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="1" green="0.34509803921568627" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="Vuv-7e-FkF" firstAttribute="centerY" secondItem="52L-zu-OhU" secondAttribute="centerY" id="Yq0-GL-e3I"/>
+                                    <constraint firstItem="Vuv-7e-FkF" firstAttribute="centerX" secondItem="52L-zu-OhU" secondAttribute="centerX" id="deN-RB-nLZ"/>
                                     <constraint firstAttribute="height" constant="61" id="ezm-cA-DpK"/>
                                 </constraints>
                             </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="OgD-6t-7qM">
-                                <rect key="frame" x="40" y="124" width="520" height="456"/>
+                                <rect key="frame" x="20" y="124" width="560" height="456"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="jkW-F3-KRS">
                                     <size key="itemSize" width="114" height="114"/>
@@ -89,7 +103,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="leadingMargin" secondItem="OgD-6t-7qM" secondAttribute="leading" constant="-20" id="5D5-mU-UQH"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="OgD-6t-7qM" secondAttribute="leading" id="5D5-mU-UQH"/>
                             <constraint firstItem="OgD-6t-7qM" firstAttribute="top" secondItem="P0s-Xl-9pA" secondAttribute="bottom" constant="20" id="5OX-e0-auQ"/>
                             <constraint firstItem="P0s-Xl-9pA" firstAttribute="trailing" secondItem="52L-zu-OhU" secondAttribute="trailing" id="BwS-Ny-rU2"/>
                             <constraint firstAttribute="trailing" secondItem="6wR-xH-lY9" secondAttribute="trailing" id="Cuw-lo-49l"/>
@@ -100,7 +114,7 @@
                             <constraint firstItem="52L-zu-OhU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Q0Y-oF-9j0"/>
                             <constraint firstItem="6wR-xH-lY9" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="5" id="R2C-2o-sgY"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6wR-xH-lY9" secondAttribute="bottom" id="Ri8-Ie-D3o"/>
-                            <constraint firstItem="OgD-6t-7qM" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="-20" id="aKu-HV-F8a"/>
+                            <constraint firstItem="OgD-6t-7qM" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="aKu-HV-F8a"/>
                             <constraint firstItem="52L-zu-OhU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="eZq-4k-1vf"/>
                             <constraint firstItem="P0s-Xl-9pA" firstAttribute="top" secondItem="52L-zu-OhU" secondAttribute="bottom" constant="-1" id="iZX-jF-dro"/>
                             <constraint firstItem="6wR-xH-lY9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="kzb-LS-qSa"/>
